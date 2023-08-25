@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJS backend for Generator XYZ",
   "main": "./src/app.ts",
-  "repository": "https://github.com/render-examples/express-hello-world",
+  "repository": "https://github.com/generatorxyz/generator-xyz-backend",
   "author": "Dev By RayRay",
   "license": "MIT",
   "private": false,
@@ -11,7 +11,7 @@
   "scripts": {
     "start": "nodemon dist/app.js",
     "dev": "tsnd --respawn src/app.ts && tsc-alias",
-    "build": "tsc --build",
+    "build": "tsc --build"
   },
   "dependencies": {
     "@extractus/feed-extractor": "^6.2.1",
