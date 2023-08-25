@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "commonjs",
+		"moduleResolution": "Node",
+		"lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"sourceMap": true,
+		"strict": true,
+		"experimentalDecorators": true,
+		"baseUrl": ".",
+		"rootDir": "./src",
+		"paths": {
+			"@/*": ["./src/*"],
+			"@/services": ["./src/services/*"],
+			"@/types": ["./src/types/*"],
+			"@/routes": ["./src/routes/*"]
+		},
+		"types": [
+			"@types/node",
+			"@types/cors",
+			"@types/express",
+			"@types/nodemailer",
+			"@types/nodemailer-mailgun-transport",
+			"@types/jest",
+			"@types/stripe-v3",
+		],
+		"outDir": "./dist"
+	},
+	"include": ["src/**/*"]
+}
